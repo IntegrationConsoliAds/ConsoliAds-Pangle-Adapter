@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+ConsoliAds-Pangle-Adapter in Pods
+FBSnapshotTestCase in Pods
+Pods-ConsoliAds-Pangle-Adapter_Example in Pods, depends on:
+ConsoliAds-Pangle-Adapter in Pods (explicit)
+Pods-ConsoliAds-Pangle-Adapter_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-ConsoliAds-Pangle-Adapter_Example in Pods (explicit)

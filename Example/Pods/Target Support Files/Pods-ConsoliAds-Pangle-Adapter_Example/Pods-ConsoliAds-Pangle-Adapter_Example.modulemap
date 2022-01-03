@@ -1,0 +1,6 @@
+framework module Pods_ConsoliAds_Pangle_Adapter_Example {
+  umbrella header "Pods-ConsoliAds-Pangle-Adapter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ConsoliAdsPangleAdapter {
+  umbrella header "ConsoliAdsPangleAdapter.h"
+
+  export *
+  module * { export * }
+}
