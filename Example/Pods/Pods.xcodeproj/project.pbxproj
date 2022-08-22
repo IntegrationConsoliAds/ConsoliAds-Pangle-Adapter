@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,11 +32,11 @@
 		A3D2C35141F741004380C5376D81581D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		BA6A8F10F96416CC17B49404EB5DFD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		BA81E68427834379006DD201 /* ConsoliAdsPangleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81E68327834379006DD201 /* ConsoliAdsPangleAdapter.framework */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		E8735D874807E4B652BA0A62EB2D82AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		FC2D4F9628B365C9001A7E6A /* ConsoliAdsPangleAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D4F9528B365C9001A7E6A /* ConsoliAdsPangleAdapter.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -112,7 +112,6 @@
 		B1F3DDD38A3C0E14DBFE54A8925363A6 /* Pods-ConsoliAds-Pangle-Adapter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-Pangle-Adapter_Tests-Info.plist"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B8E7DF736197C10AE6D52F25115CD442 /* Pods-ConsoliAds-Pangle-Adapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConsoliAds-Pangle-Adapter_Example-dummy.m"; sourceTree = "<group>"; };
-		BA81E68327834379006DD201 /* ConsoliAdsPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsPangleAdapter.framework; path = "ConsoliAds-Pangle-Adapter/ConsoliAdsPangleAdapter.framework"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D1E900663A1DCAF9058A9F8745798D1D /* Pods-ConsoliAds-Pangle-Adapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliAds-Pangle-Adapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -122,6 +121,7 @@
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E7555415E8391A5ED219527E901D9A22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E94E89BBA67CC4694C1E7ABBBA0CC421 /* ConsoliAds-Pangle-Adapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConsoliAds-Pangle-Adapter.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2D4F9528B365C9001A7E6A /* ConsoliAdsPangleAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsPangleAdapter.xcframework; path = "ConsoliAds-Pangle-Adapter/ConsoliAdsPangleAdapter.xcframework"; sourceTree = "<group>"; };
 		FDC2C2F30CB71EA95F96769652C5FBC6 /* Pods-ConsoliAds-Pangle-Adapter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ConsoliAds-Pangle-Adapter_Tests"; path = Pods_ConsoliAds_Pangle_Adapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE07C84047F0083AE18538536073C9A5 /* ConsoliAds-Pangle-Adapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConsoliAds-Pangle-Adapter-umbrella.h"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA81E68427834379006DD201 /* ConsoliAdsPangleAdapter.framework in Frameworks */,
 				BA6A8F10F96416CC17B49404EB5DFD60 /* Foundation.framework in Frameworks */,
+				FC2D4F9628B365C9001A7E6A /* ConsoliAdsPangleAdapter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 		643D505FBD757F8EAEC456F16F60F981 /* ConsoliAds-Pangle-Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				BA81E68327834379006DD201 /* ConsoliAdsPangleAdapter.framework */,
+				FC2D4F9528B365C9001A7E6A /* ConsoliAdsPangleAdapter.xcframework */,
 				0A4000914714C6A2EA9278CB1A905C20 /* Pod */,
 				57C3FEC23C8AC766D0E06F805893CBD5 /* Support Files */,
 			);
@@ -620,7 +620,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -652,7 +656,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Pangle-Adapter/ConsoliAds-Pangle-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Pangle-Adapter/ConsoliAds-Pangle-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Pangle_Adapter;
 				PRODUCT_NAME = ConsoliAds_Pangle_Adapter;
@@ -724,6 +732,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -748,7 +757,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Tests/Pods-ConsoliAds-Pangle-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Tests/Pods-ConsoliAds-Pangle-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -781,7 +794,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Tests/Pods-ConsoliAds-Pangle-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Tests/Pods-ConsoliAds-Pangle-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -814,7 +831,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Pangle-Adapter/ConsoliAds-Pangle-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Pangle-Adapter/ConsoliAds-Pangle-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Pangle_Adapter;
 				PRODUCT_NAME = ConsoliAds_Pangle_Adapter;
@@ -845,7 +866,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -875,7 +900,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Example/Pods-ConsoliAds-Pangle-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Example/Pods-ConsoliAds-Pangle-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -946,8 +975,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -969,7 +1000,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Example/Pods-ConsoliAds-Pangle-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pangle-Adapter_Example/Pods-ConsoliAds-Pangle-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";

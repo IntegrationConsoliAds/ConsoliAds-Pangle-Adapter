@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+ConsoliAds-Pangle-Adapter in Pods, no dependencies
