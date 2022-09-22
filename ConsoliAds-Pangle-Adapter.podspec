@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Pangle-Adapter'
-  s.version          = '3.8.1.0-1.3'
+  s.version          = '4.6.2.2-v14.1.0'
   s.summary          = 'This pod is used to get caPangle adapter for pangleAd serving after integrating Consoliads-Mediation pod.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
